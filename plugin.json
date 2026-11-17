@@ -1,0 +1,30 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "planneragent001@gmail.com",
+    "name": "Planner Agent"
+  },
+  "description": "Hook Agent providing autonomous lifecycle interception and governance around installed agent capabilities.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [],
+        "category": "Developer Tools",
+        "defaultPrompt": "For every actionable request, resolve the real Agent -> Plugin -> Skill -> Function. Autonomously place Hook Agent above the target execution: emit and attempt only the applicable lifecycle functions, invoke the real target capability, then verify evidence. Lifecycle emission is not execution; return NOT_INVOKED when no real runtime adapter/provider is available.",
+        "developerName": "Planner Agent",
+        "displayName": "Hook Agent",
+        "longDescription": "Hook Agent provides the shared lifecycle layer that surrounds installed agent capability execution without replacing business logic.",
+        "shortDescription": "Govern agent lifecycle hooks"
+      }
+    }
+  },
+  "keywords": [
+    "hook",
+    "agent",
+    "lifecycle",
+    "governance",
+    "pmcro"
+  ],
+  "name": "hook",
+  "version": "0.1.0"
+}
