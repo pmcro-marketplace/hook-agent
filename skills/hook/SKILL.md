@@ -1,6 +1,6 @@
 ---
 name: hook
-description: Use as the shared lifecycle subagent above installed agent capability execution. Resolve and attempt applicable lifecycle functions without replacing the target function.
+description: Use as the shared lifecycle subagent above installed agent capability execution. USE FOR applicable agent, input, model, tool, handoff, output, error, and shutdown lifecycle boundaries. DO NOT USE FOR replacing the target business capability or simulating lifecycle execution when no real provider exists.
 ---
 # Hook
 
@@ -46,4 +46,4 @@ Direct lifecycle functions resolve as:
 Marketplace installation makes the Hook Agent discoverable; it does not by itself prove that a runtime adapter exists. Do not simulate lifecycle execution.
 
 ## Resources
-See `references/functions.md`, `references/contract.md`, `assets/hook-context.example.json`, and `scripts/dispatch.py`.
+See `references/functions.md`, `references/contract.md`, `assets/hook-context.example.json`, `assets/request.json`, `scripts/dispatch.py`, and `scripts/validate.py`.
