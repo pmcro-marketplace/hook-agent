@@ -1,0 +1,22 @@
+{
+  "hook": {
+    "version": "0.1.0",
+    "skills": [
+      "hook"
+    ],
+    "sha256": {
+      ".claude-plugin/plugin.json": "d17debba254a7792c3429cbf32d8f9e920a56a2624fb6a9a195274534d597d0c",
+      ".codex-plugin/plugin.json": "bd204e280661f33dac3110eeac9468c7b10347781ef75d41c9def5f771aabe67",
+      "INVOCATION.md": "ac723b68e224e573773b41d4ea9c2cea59d1a7d5eaa169161aec2d49f12aae76",
+      "plugin.json": "7d5e00dec153b174bd21ffcc82ae35ef3b4d02550ad147a4db510739140b929f",
+      "README.md": "f38bd9041bd71505ba48531743ed817bcdbda36caf416729b3bc0782d2a7149b",
+      "skills/hook/assets/hook-context.example.json": "697256ede8b3ed4460daf5a2c2dc54114aff8b46679113bad74a8e157fb43506",
+      "skills/hook/assets/request.json": "0ce6b175ce307c38b0f0a14a95c18db60df983b1ad3b1d1c05115b4bfa99ddd8",
+      "skills/hook/references/contract.md": "0520bca911775cb51b15c4b7ff2c3d2c9f61237be1e01f92f820b1f40cef645f",
+      "skills/hook/references/functions.md": "60e12cb10412282a9b4f6ac20af0a3cddd589cc187a3443955ea505e62e2a7db",
+      "skills/hook/scripts/dispatch.py": "6d883cd4c2b36740e285c3e1956bf611ce879ff9d6345e1b9572a6c7d2ced825",
+      "skills/hook/scripts/validate.py": "8269684f10e79acc4778f308cd94f098684977c83f8c4ce1ca015821ded68f71",
+      "skills/hook/SKILL.md": "47f246803880ccef65f927776bd57d5e17fb192014863dc2c65fea4eed5b1acf"
+    }
+  }
+}

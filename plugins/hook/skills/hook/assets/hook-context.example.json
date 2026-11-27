@@ -1,0 +1,23 @@
+{
+  "kind": "HookContext",
+  "version": 1,
+  "run": {
+    "id": "example",
+    "parent_id": null
+  },
+  "target": {
+    "agent": "example-agent",
+    "plugin": "example",
+    "skill": "example",
+    "function": "example"
+  },
+  "event": {
+    "name": "pre-tool-call"
+  },
+  "governance": {
+    "posture": "enforce"
+  },
+  "evidence": {
+    "correlation_id": "example"
+  }
+}

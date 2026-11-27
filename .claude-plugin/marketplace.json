@@ -1,0 +1,13 @@
+{
+  "name": "hook-agent",
+  "owner": {
+    "name": "PMCR-O Marketplace"
+  },
+  "plugins": [
+    {
+      "name": "hook",
+      "source": "./plugins/hook",
+      "description": "Hook Agent providing autonomous lifecycle interception and governance around installed agent capabilities."
+    }
+  ]
+}

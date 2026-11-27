@@ -1,0 +1,20 @@
+{
+  "name": "hook-agent",
+  "interface": {
+    "displayName": "Hook Agent Marketplace"
+  },
+  "plugins": [
+    {
+      "name": "hook",
+      "category": "Developer Tools",
+      "policy": {
+        "authentication": "ON_INSTALL",
+        "installation": "AVAILABLE"
+      },
+      "source": {
+        "path": "./plugins/hook",
+        "source": "local"
+      }
+    }
+  ]
+}
