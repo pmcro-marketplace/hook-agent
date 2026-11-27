@@ -1,0 +1,9 @@
+{
+  "name": "hook",
+  "version": "0.1.0",
+  "description": "Hook Agent providing autonomous lifecycle interception and governance around installed agent capabilities.",
+  "author": {
+    "email": "planneragent001@gmail.com",
+    "name": "Planner Agent"
+  }
+}

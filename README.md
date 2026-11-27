@@ -1,10 +1,11 @@
-# Hook Agent
+﻿# hook-agent
 
-Canonical plugin: `hook`.
-Human agent: `@hook-agent`.
-Skill/subagent: `hook`.
+PMCRO marketplace in the dotnet/skills layout.
 
-Hook Agent is the lifecycle layer installed through the marketplace. It never replaces the target business capability.
-Direct lifecycle names resolve to `/hook:hook:<function>`.
+- plugins/<plugin>/plugin.json, .claude-plugin/plugin.json, .codex-plugin/plugin.json
+- plugins/<plugin>/skills/<skill>/SKILL.md (+ scripts/, references/, assets/)
+- tests/<plugin>/<skill>/eval.yaml
+- marketplace manifests: .github/plugin, .claude-plugin, .cursor-plugin, .agents/plugins
 
-Emission is not invocation.
+Install: /plugin marketplace add <org>/hook-agent
+
